@@ -1,0 +1,25 @@
+Un proyecto hubo,
+<<<<<<< HEAD
+la historia principal.
+=======
+pero en otra rama aquí.
+>>>>>>> version-alt
+Porque no hay otras.
+
+===
+
+mint@layton-mint-VirtualBox:~/dev/actividad-6-3-git-merge-y-resoluci-n-de-conflictos-layton-ui$ git st
+On branch main
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Changes to be committed:
+        new file:   cp2-merge-limpio.txt
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+        both modified:   historia.txt
