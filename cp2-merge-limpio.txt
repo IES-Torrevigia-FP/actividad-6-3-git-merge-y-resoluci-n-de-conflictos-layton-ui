@@ -1,0 +1,18 @@
+mint@layton-mint-VirtualBox:~/dev/actividad-6-3-git-merge-y-resoluci-n-de-conflictos-layton-ui$ git merge capitulo-1 
+Updating 96c124a..764191c
+Fast-forward
+ cp1-estado-inicial.txt | 6 ++++++
+ historia.txt           | 5 +++++
+ 2 files changed, 11 insertions(+)
+ create mode 100644 cp1-estado-inicial.txt
+
+mint@layton-mint-VirtualBox:~/dev/actividad-6-3-git-merge-y-resoluci-n-de-conflictos-layton-ui$ git log --oneline
+764191c (HEAD -> main, capitulo-1) capitulo 1
+96c124a crear historia inicial
+7da5b8b (origin/main, origin/HEAD) add deadline
+04dd0a5 Initial commit
+
+===
+
+Si hubieramos hecho algun cambio en main antes del merge, git no siempre sabrá cuál versión utilizar. Como esto no ha sido el caso, hemos
+tenido un "merge sin conflicto".
