@@ -1,0 +1,6 @@
+mint@layton-mint-VirtualBox:~/dev/actividad-6-3-git-merge-y-resoluci-n-de-conflictos-layton-ui$ git branch
+* main
+mint@layton-mint-VirtualBox:~/dev/actividad-6-3-git-merge-y-resoluci-n-de-conflictos-layton-ui$ git log --oneline
+96c124a (HEAD -> main) crear historia inicial
+7da5b8b (origin/main, origin/HEAD) add deadline
+04dd0a5 Initial commit
