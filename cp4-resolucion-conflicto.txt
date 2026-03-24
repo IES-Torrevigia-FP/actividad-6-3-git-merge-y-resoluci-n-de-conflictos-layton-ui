@@ -1,0 +1,14 @@
+mint@layton-mint-VirtualBox:~/dev/actividad-6-3-git-merge-y-resoluci-n-de-conflictos-layton-ui$ git log --oneline
+6c187c2 (HEAD -> main) resolver conflicto linea 2
+d3f8e78 modificar linea 2 en main
+86b5718 (version-alt) modificar linea 2 rama alt
+764191c (capitulo-1) capitulo 1
+96c124a crear historia inicial
+7da5b8b (origin/main, origin/HEAD) add deadline
+04dd0a5 Initial commit
+
+===
+
+Cuando hemos intentado combinar las ramas main y version-alt, en ambas se habían producido cambios en el documento historia.txt. 
+Para resolver el conflicto, entramos en el historia.txt y vemos que aparecen marcadores (<<<<<<<<, ========, ...).
+Cuando quitamos estos marcadores dejamos una versión final que confirmamos con un último "git add" y "git commit".
